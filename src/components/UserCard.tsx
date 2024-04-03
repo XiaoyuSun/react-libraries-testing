@@ -7,9 +7,8 @@ import { User } from "../helper";
  * @returns A React element
  */
 const UserCard = ({ user }: { user: User }): React.JSX.Element => {
-  console.log("🚀 ~ UserCard ~ props:", user);
   return (
-    <div>
+    <div className="bg-white p-4 border border-gray-200 mb-2">
       {user.name} - {user.id}
     </div>
   );
