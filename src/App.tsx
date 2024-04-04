@@ -11,10 +11,10 @@ function App() {
 
   return (
     <div className="h-screen flex flex-col items-center">
-      <h1 className="mt-10">Playing Virtuoso</h1>
+      <h1 className="my-10 text-3xl">Playing Virtuoso</h1>
 
       <button
-        className="uppercase"
+        className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded uppercase"
         onClick={() =>
           virtuisoScrollRef.current?.scrollToIndex({
             index: Math.random() * users.length,
@@ -22,7 +22,7 @@ function App() {
           })
         }
       >
-        scroll
+        jump
       </button>
 
       <div className="mt-2 border border-gray-400">
