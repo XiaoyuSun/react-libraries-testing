@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="h-screen flex flex-col items-center">
-      <h1 className="my-10 text-3xl">Playing Virtuoso</h1>
+      <h1 className="my-10 text-3xl">Displaying 1,000,000 records</h1>
 
       <button
         className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded uppercase"
